@@ -1,12 +1,12 @@
 #!/usr/bin/python
-# <bitbar.title>Awin Sales Summary</bitbar.title>
-# <bitbar.version>1.0</bitbar.version>
-# <bitbar.author>Paul Schoenmakers</bitbar.author>
-# <bitbar.author.github>pschoenmakers</bitbar.author.github>
-# <bitbar.desc>Displays your sales for today on the AWIN platform. Perfect for AWIN publishers.</bitbar.desc>
-# <bitbar.dependencies>python</bitbar.dependencies>
-# <bitbar.image>https://github.com/pschoenmakers/xbar-awin/blob/main/awin-sales-xbar-screenshot.jpg?raw=true</bitbar.image>
-# <bitbar.abouturl>https://github.com/pschoenmakers</bitbar.abouturl>
+# <xbar.title>Awin Sales Summary</xbar.title>
+# <xbar.version>1.0</xbar.version>
+# <xbar.author>Paul Schoenmakers</xbar.author>
+# <xbar.author.github>pschoenmakers</xbar.author.github>
+# <xbar.desc>Displays your sales for today on the AWIN platform. Perfect for AWIN publishers.</xbar.desc>
+# <xbar.dependencies>python</xbar.dependencies>
+# <xbar.image></xbar.image>
+# <xbar.abouturl>https://github.com/pschoenmakers</xbar.abouturl>
 import urllib2
 import json
 
