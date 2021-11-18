@@ -5,7 +5,7 @@
 # <bitbar.author.github>pschoenmakers</bitbar.author.github>
 # <bitbar.desc>Displays your sales for today on the AWIN platform. Perfect for AWIN publishers.</bitbar.desc>
 # <bitbar.dependencies>python</bitbar.dependencies>
-# <bitbar.image></bitbar.image>
+# <bitbar.image>https://github.com/pschoenmakers/xbar-awin/blob/main/awin-sales-xbar-screenshot.jpg?raw=true</bitbar.image>
 # <bitbar.abouturl>https://github.com/pschoenmakers</bitbar.abouturl>
 import urllib2
 import json
