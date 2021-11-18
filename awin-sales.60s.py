@@ -5,7 +5,7 @@
 # <xbar.author.github>pschoenmakers</xbar.author.github>
 # <xbar.desc>Displays your sales for today on the AWIN platform. Perfect for AWIN publishers.</xbar.desc>
 # <xbar.dependencies>python</xbar.dependencies>
-# <xbar.image></xbar.image>
+# <xbar.image>https://github.com/pschoenmakers/xbar-awin/blob/main/awin-sales-xbar-screenshot.jpg?raw=true<</xbar.image>
 # <xbar.abouturl>https://github.com/pschoenmakers</xbar.abouturl>
 import urllib2
 import json
