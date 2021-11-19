@@ -34,18 +34,20 @@ clicks = 0
 commission = 0
 salesnumber = 0
 
+if json_data:
+    for item in json_data:
+        clicks = clicks + item['clicks']
+        commission = commission + item['totalComm']
+        salesnumber = salesnumber + item['totalNo']
 
-for item in json_data:
-    clicks = clicks + item['clicks']
-    commission = commission + item['totalComm']
-    salesnumber = salesnumber + item['totalNo']
-
-print ("{} {} - {} clicks - {} sales".format(commission,item['currency'],clicks,salesnumber))
+    print ("{} {} - {} clicks - {} sales".format(commission,item['currency'],clicks,salesnumber))
 
 # Disable these lines below to only show the stats summary
 # if you have a long list of advertisers the dropdown wouldn't make sense.
 
-print("---")
+    print("---")
 
-for item in json_data:
-    print("{}: {} {} - {} clicks - {} sales".format(item['advertiserName'],item['totalComm'],item['currency'],item['clicks'],item['totalNo']))
+    for item in json_data:
+        print("{}: {} {} - {} clicks - {} sales".format(item['advertiserName'],item['totalComm'],item['currency'],item['clicks'],item['totalNo']))
+else:
+    print("No clicks reported for today")
